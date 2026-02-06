@@ -91,6 +91,10 @@ body {
   gap: 17px;
 }
 
+.section-episodes{
+  margin-bottom: 160px;
+}
+
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -167,7 +171,7 @@ body {
   background-color: rgba(25, 25, 25, 1);
   margin-bottom: 48px;
 }
-
+.span-about,
 .episode-span {
   font-family: DM Sans;
   font-weight: 400;
@@ -177,7 +181,7 @@ body {
   color: rgba(17, 141, 168, 1);
   margin-bottom: 17px;
 }
-
+.title-about,
 .title-card {
   font-family: DM Sans;
   font-weight: 400;
@@ -187,7 +191,7 @@ body {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 28px;
 }
-
+.description-about,
 .description-card {
   font-family: DM Sans;
   font-weight: 400;
@@ -212,4 +216,41 @@ body {
   border: none;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(17, 141, 168, 1);
+}
+.wrapper-about{
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  gap: 60px;
+}
+
+.info-about{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.icon-about{
+  width: 112px;
+  height: 112px;
+  margin-bottom: 20px;
+}
+
+.span-about {
+margin: 0;
+  
+}
+.title-about {
+}
+.description-about p{
+  margin-bottom: 33px;
+}
+/* .span-about,
+.info-about a {
+  display: block;
+} */
+.img-about {
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
